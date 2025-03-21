@@ -21,7 +21,6 @@ Este é um jogo de aventura em texto com:
 
 ## Créditos
 - Som de fundo e clique: arquivos locais.
-- API: [Advice Slip](https://api.adviceslip.com).
 - Autores do projeto:
   - Mauricio Santos Rodrigues
   - João Pedro Gonçalves Holanda
