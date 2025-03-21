@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aventura Sombria</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Menu inicial -->
+  <div id="menu-container">
+    <h1>Aventura Sombria</h1>
+    <p>Selecione a dificuldade e clique em "Iniciar Jogo".</p>
+
+    <div id="difficulty-select">
+      <label for="difficulty">Dificuldade:</label>
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="normal" selected>Normal</option>
+        <option value="hard">Hard</option>
+      </select>
+    </div>
+
+    <button id="start-game-btn">Iniciar Jogo</button>
+    <button id="credits-btn">Créditos</button>
+    <button id="exit-btn">Sair</button>
+  </div>
+
+  <!-- Tela de créditos -->
+  <div id="credits-container" style="display: none;">
+    <h2>Créditos</h2>
+    <p>Este jogo utiliza sons de fundo (fogueira) e clique.</p>
+    <p>Autores do Projeto:</p>
+    <ul>
+      <li>Mauricio Santos Rodrigues</li>
+      <li>João Pedro Gonçalves Holanda</li>
+    </ul>
+    <button id="back-menu-btn">Voltar ao Menu</button>
+  </div>
+
+  <!-- Tela principal do jogo -->
+  <div id="game-container" style="display: none;">
+    <div id="scoreboard">
+      <span id="lives">Vidas: 3</span>
+      <span id="points">Pontos: 0</span>
+
+    </div>
+
+    <div id="narrative">
+      <p id="text"></p>
+    </div>
+
+    <div id="choices"></div>
+
+    <!-- Botões de fim de jogo (reiniciar ou voltar ao menu) -->
+    <div id="end-buttons" style="display: none;">
+      <button id="restart-button">Reiniciar Jogo</button>
+      <button id="back-menu-end">Voltar ao Menu</button>
+    </div>
+  </div>
+
+  <!-- Som de fundo em loop -->
+  <audio id="bg-sound" src="sounds/fogueira.mp3" loop></audio>
+
+  <script type="module" src="js/script.js"></script>
+</body>
+
+</html>

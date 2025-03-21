@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Containers de menu, créditos e jogo */
+#menu-container,
+#credits-container,
+#game-container {
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Menu inicial centralizado */
+#menu-container {
+  align-items: center;
+  text-align: center;
+}
+
+#menu-container h1 {
+  margin-bottom: 10px;
+}
+
+/* Botões do menu */
+#menu-container button {
+  padding: 10px 20px;
+  margin: 10px;
+  background: #444;
+  border: none;
+  border-radius: 4px;
+  color: #eee;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+#menu-container button:hover {
+  background: #555;
+  transform: scale(1.08);
+}
+
+/* Créditos */
+#credits-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#credits-container ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#credits-container button {
+  align-self: center;
+  padding: 10px 20px;
+  background: #444;
+  border: none;
+  border-radius: 4px;
+  color: #eee;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+#credits-container button:hover {
+  background: #555;
+  transform: scale(1.08);
+}
+
+/* Scoreboard */
+#scoreboard {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1em;
+}
+
+/* Texto narrativo com fade-in */
+#text {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+#text.show {
+  opacity: 1;
+}
+
+/* Botões de escolha no jogo */
+#choices button {
+  padding: 10px 15px;
+  margin: 5px;
+  background: #444;
+  border: none;
+  border-radius: 4px;
+  color: #eee;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+#choices button:hover {
+  background: #555;
+  transform: scale(1.08);
+}
+
+/* Botões de fim de jogo */
+#end-buttons button {
+  padding: 10px 15px;
+  margin: 5px;
+  background: #d33;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+#end-buttons button:hover {
+  background: #f44;
+  transform: scale(1.08);
+}

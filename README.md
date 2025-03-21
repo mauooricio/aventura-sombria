@@ -1,2 +1,28 @@
-# aventura-sombria
-Jogo de aventura em texto desenvolvido em HTML, CSS e JavaScript. O jogador explora fases diferentes (clareira, portão, viajante ferido, castelo) e toma decisões que afetam o rumo da história. Possui sistema de vidas, pontuação, salvamento em localStorage e botões para reiniciar a aventura.
+
+# Aventura Sombria
+
+Este é um jogo de aventura em texto com:
+
+- História: clareira, portão enferrujado, viajante ferido e Guardião das Sombras.
+- Sistema de vidas, pontos e dificuldade (Easy, Normal, Hard).
+- Som de fundo (fogueira) e som de clique.
+- Cronômetro de 30s na batalha final.
+- Salvamento no localStorage.
+- API real (Advice Slip) para gerar um conselho.
+
+## Estrutura
+
+## Como Usar
+1. Coloque `fogueira.mp3` e `clique.mp3` na pasta `sounds/`.
+2. Abra `index.html` (use Live Server se possível).
+3. Selecione dificuldade e clique em "Iniciar Jogo".
+4. Faça escolhas, veja o cronômetro na fase 5.
+5. No final, reinicie ou volte ao menu.
+
+## Créditos
+- Som de fundo e clique: arquivos locais.
+- API: [Advice Slip](https://api.adviceslip.com).
+- Autores do projeto:
+  - Mauricio Santos Rodrigues
+  - João Pedro Gonçalves Holanda
+
