@@ -8,7 +8,6 @@ Este é um jogo de aventura em texto com:
 - Som de fundo (fogueira) e som de clique.
 - Cronômetro de 30s na batalha final.
 - Salvamento no localStorage.
-- API real (Advice Slip) para gerar um conselho.
 
 ## Estrutura
 
