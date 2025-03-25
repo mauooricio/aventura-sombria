@@ -6,7 +6,6 @@ Este é um jogo de aventura em texto com:
 - História: clareira, portão enferrujado, viajante ferido e Guardião das Sombras.
 - Sistema de vidas, pontos e dificuldade (Easy, Normal, Hard).
 - Som de fundo (fogueira) e som de clique.
-- Cronômetro de 30s na batalha final.
 - Salvamento no localStorage.
 
 ## Estrutura
